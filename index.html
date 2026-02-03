@@ -2,30 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Be My Valentine?</title>
+  <title>Be My Valentine 💘</title>
+
   <style>
     body {
-      background-color: #ffe6f0;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      text-align: center;
+      background-color: #ffd6e8;
+      font-family: Arial, sans-serif;
     }
 
-    .card {
+    .box {
       background: white;
-      padding: 30px;
+      padding: 25px;
       border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
       width: 320px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     }
 
+    img {
+      width: 220px;
+      margin: 15px 0;
+    }
 
     button {
-      padding: 10px 22px;
-      margin: 10px;
+      padding: 10px 20px;
+      margin: 8px;
       font-size: 16px;
       border: none;
       border-radius: 10px;
@@ -42,15 +48,16 @@
     }
   </style>
 </head>
-<body>
-  <div class="card">
-    <h1>Will you be my Valentine? 💘</h1>
 
-    <!-- YOUR CAT IMAGE -->
-    <img src="cats.jpg" alt="Cute cats">
+<body>
+  <div class="box">
+    <h2>Will you be my Valentine? 💖</h2>
+
+    <!-- SLIME IMAGE -->
+    <img src="cats.jpg">
 
     <div>
-      <button class="yes" onclick="alert('Liebe dich mommy❤️')">Yes</button>
+      <button class="yes" onclick="alert('Liebe dich mommy!!! 💕')">Yes</button>
       <button class="no" onclick="alert('😡😡😡😡😡')">No</button>
     </div>
   </div>
